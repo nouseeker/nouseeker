@@ -1,81 +1,62 @@
-# n7meless
-![Welcome to my profile! I'm Aidar Almukhametov. I'm Java Backend Developer. Check out my work](assets/greeting.gif)
+```kotlin
+@file:JvmName("Main")
 
+fun main() {
+    val nouseeker by developer {
+        name = "Aidar"
+        surname = "Almukhametov"
+        description = "Software Engineer"
 
-## 📖 𝗔𝗕𝗢𝗨𝗧
+        contacts {
+            email = "nouseeker@yahoo.com"
+            telegram = "t.me/nouseeker"
+            linkedin = "linkedin.com/in/nouseeker"
+        }
+    }
+    nouseeker.work()
+}
+```
 
-𝗜'𝗠 𝗔 𝗕𝗔𝗖𝗞𝗘𝗡𝗗 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗕𝗔𝗦𝗘𝗗 𝗜𝗡 𝗨𝗙𝗔❟ 𝗥𝗨𝗦𝗦𝗜𝗔｡
+```bash
+gradle --no-build-cache jar
+java -jar -Dprofile=BACKEND main.jar
+```
 
-𝗠𝗬 𝗕𝗘𝗦𝗧 𝗧𝗥𝗔𝗜𝗧 𝗔𝗦 𝗔 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗜𝗦 𝗧𝗛𝗔𝗧 𝗕𝗘𝗙𝗢𝗥𝗘 𝗜 𝗦𝗧𝗔𝗥𝗧 𝗪𝗥𝗜𝗧𝗜𝗡𝗚 𝗖𝗢𝗗𝗘❟ 𝗜 𝗙𝗜𝗥𝗦𝗧 𝗧𝗛𝗜𝗡𝗞 𝗖𝗔𝗥𝗘𝗙𝗨𝗟𝗟𝗬 𝗔𝗡𝗗 𝗧𝗥𝗬 𝗧𝗢 𝗔𝗡𝗧𝗜𝗖𝗜𝗣𝗔𝗧𝗘 𝗧𝗛𝗘
-𝗖𝗢𝗡𝗦𝗘𝗤𝗨𝗘𝗡𝗖𝗘𝗦 𝗢𝗙 𝗘𝗔𝗖𝗛 𝗢𝗙 𝗠𝗬 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗠𝗘𝗡𝗧 𝗗𝗘𝗖𝗜𝗦𝗜𝗢𝗡𝗦｡ 𝗔𝗟𝗦𝗢❟ 𝗜 𝗔𝗟𝗪𝗔𝗬𝗦 𝗦𝗘𝗧 𝗠𝗬𝗦𝗘𝗟𝗙 𝗔 𝗧𝗔𝗦𝗞 𝗧𝗛𝗔𝗧 𝗔𝗟𝗟𝗢𝗪𝗦 𝗠𝗘 𝗧𝗢 𝗠𝗢𝗩𝗘 𝗢𝗡❟ 𝗧𝗢 𝗟𝗘𝗔𝗥𝗡 𝗡𝗘𝗪 𝗧𝗛𝗜𝗡𝗚𝗦｡
-
-## 🧰 𝗦𝗞𝗜𝗟𝗟𝗦
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white)
-
-
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
-![Liquibase](https://img.shields.io/badge/Liquibase-%23CB3515.svg?style=flat-square&logo=liquibase&logoColor=white)
-
-
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat-square&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=Hibernate&logoColor=white)
-![JUnit5](https://img.shields.io/badge/-JUnit5-%23ffffff?style=flat-square&labelColor=000000&color=00802b&logo=JUnit5&logoColor=990000)
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=swagger&logoColor=white)
-
-
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
-![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=flat-square&logo=Apache%20Maven&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flat-square&logo=intellij-idea&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
-
-## 🔗 𝗟𝗜𝗡𝗞𝗦
-
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/n7meless)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:n7meless@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/n7meless)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidar-almukhametov-657a96277)
-
-## 📈 𝗦𝗧𝗔𝗧𝗦
-
-<p>
-
-[//]: # (GITHUB STREAK)
-
-<a href="https://github.com/n7meless">
-<img height="137" alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=n7meless&theme=dark&card_width=350&hide_border=true&ring=00802b&fire=02D075&stroke=02D075&currStreakLabel=02D075">
-</a>
-
-[//]: # (GITHUB STATS)
-
-<a href="https://github.com/n7meless">
-<img height="137" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=n7meless&card_width=300&hide_title=true&hide_border=true&hide=contribs,prs&show_icons=true&theme=dark&title_color=048955&text_color=FFFFFF&rank_icon=github&include_all_commits=true&ring_color=02D075">
-</a>
-
-[//]: # (LANGUAGES STATS)
-
-<a href="https://github.com/n7meless">
-<img height="137" alt="Language Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=n7meless&card_width=540&hide_border=true&layout=compact&theme=dark&title_color=429f68">
-</a>
-
-[//]: # (LEETCODE STATS)
-
-<a href="https://leetcode.com/n7meless">
-<img alt="LeetCode Stats" height="137" src="https://leetcode-stats-six.vercel.app/api?username=n7meless&theme=dark">
-</a>
-
-</p>
-
+<table>
+    <tr>
+        <td>
+            <a href="https://github.com/nouseeker" title="Go to Source">
+                <img alt="streaks" height=200 width=400
+                     src="https://nirzak-streak-stats.vercel.app/?user=nouseeker&theme=react&border=61dafb&hide_border=true"/>
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/nouseeker" title="Go to Source">
+                <img alt="stars" height=200 width=400
+                     src="https://github-readme-stats.vercel.app/api?username=nouseeker&show_icons=true&theme=react&border_color=61dafb&hide_border=true"/>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/nouseeker" title="Go to Source">
+                <img alt="languages" height=200 width=400 align="center"
+                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=nouseeker&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true&size_weight=0.5&count_weight=0.5"/>
+            </a>
+        </td>
+        <td>
+            <a href="https://leetcode.com/u/nouseeker" title="Go to Source">
+                <img alt="contributions" height=200 width=400 align="center"
+                     src="https://leetcard.jacoblin.cool/nouseeker?theme=nord"/>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <a href="https://github.com/nouseeker" title="Go to Source">
+                <img src="https://github-readme-activity-graph.vercel.app/graph?username=nouseeker&theme=react-dark&bg_color=20232a&hide_border=true&grid=true&days=31"
+                     width="100%"/>
+            </a>
+        </td>
+    </tr>
+</table>
